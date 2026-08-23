@@ -188,7 +188,7 @@ nav a:hover {
     margin-top: 50px !important;
     background: linear-gradient(rgb(0 0 0 / 0.57),
     rgb(0 0 0 / 0.75)),
-    url("./image/banner.png") center / cover no-repeat;
+    url("./assets/banner.png") center / cover no-repeat;
 }
 
 .hero-content {
@@ -517,7 +517,7 @@ section {
 
     background: linear-gradient(rgba(35, 54, 36, .1),
     rgba(35, 54, 36, .1)),
-    url("./image/fermer.png") center / cover;
+    url("./assets/fermer.png") center / cover;
 
     border: 8px solid #f4c45b;
 }
@@ -842,13 +842,13 @@ section {
 }
 
 .vk {
-    content: url("./image/social/vk.png");
+    content: url("./assets/social/vk.png");
 }
 .max {
-    content: url("./image/social/max.png");
+    content: url("./assets/social/max.png");
 }
 .telegram {
-    content: url("./image/social/telegram.png");
+    content: url("./assets/social/telegram.png");
 }
 
 
