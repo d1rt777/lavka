@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-08-24 12:30:08">
+  <shop>
+    <name>Лавка</name>
+    <company>Лавка Продукты</company>
+    <url>https://your-domain.com/lavka</url>
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Продукты</category>
+    </categories>
+    <offers>
+      <offer id="1" available="true">
+        <url>https://your-domain.com/lavka/#product-1</url>
+        <price>450</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Домашний сыр</name>
+        <description>Натуральный фермерский сыр из свежего молока.</description>
+      </offer>
+      <offer id="2" available="true">
+        <url>https://your-domain.com/lavka/#product-2</url>
+        <price>690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Фермерская колбаса</name>
+        <description>Домашняя колбаса из отборного мяса.</description>
+      </offer>
+      <offer id="3" available="true">
+        <url>https://your-domain.com/lavka/#product-3</url>
+        <price>120</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Домашнее молоко</name>
+        <description>Свежайшее фермерское молоко.</description>
+      </offer>
+      <offer id="4" available="true">
+        <url>https://your-domain.com/lavka/#product-4</url>
+        <price>280</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Сливочное масло</name>
+        <description>Натуральное сливочное масло.</description>
+      </offer>
+      <offer id="5" available="true">
+        <url>https://your-domain.com/lavka/#product-5</url>
+        <price>230</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Фермерский творог</name>
+        <description>Мягкий творог из натурального молока.</description>
+      </offer>
+      <offer id="6" available="true">
+        <url>https://your-domain.com/lavka/#product-6</url>
+        <price>190</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Домашняя сметана</name>
+        <description>Густая натуральная сметана.</description>
+      </offer>
+      <offer id="7" available="true">
+        <url>https://your-domain.com/lavka/#product-7</url>
+        <price>150</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Фермерские яйца</name>
+        <description>Свежие деревенские яйца.</description>
+      </offer>
+      <offer id="8" available="true">
+        <url>https://your-domain.com/lavka/#product-8</url>
+        <price>760</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Домашняя ветчина</name>
+        <description>Нежная фермерская ветчина.</description>
+      </offer>
+      <offer id="9" available="true">
+        <url>https://your-domain.com/lavka/#product-9</url>
+        <price>550</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Мёд</name>
+        <description>Натуральный цветочный мёд.</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
