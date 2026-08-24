@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/generate-yml.js",
+    "build": "vike build && node scripts/generate-yml.js",
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",
