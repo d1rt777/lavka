@@ -1963,3 +1963,123 @@ header.menu-open .burger-button span:nth-child(3) {
         font-size: 28px;
     }
 }
+
+/* =========================
+   CATALOG PAGE
+========================= */
+
+.catalog-page {
+    min-height: 100vh;
+    padding: 150px 20px 90px;
+    background: #f7f3e9;
+}
+
+.catalog-page-title {
+    margin-bottom: 45px;
+}
+
+.catalog-page-title h1 {
+    color: #315c3b;
+    font-family: 'Marck Script', cursive;
+    font-size: clamp(60px, 8vw, 90px);
+    line-height: 1;
+}
+
+/* FILTERS */
+
+.catalog-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-bottom: 45px;
+}
+
+.catalog-filter {
+    padding: 12px 22px;
+
+    border: 1px solid #d8d1c3;
+    border-radius: 4px;
+
+    background: transparent;
+    color: #315c3b;
+
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.catalog-filter:hover {
+    border-color: #315c3b;
+    background: #315c3b;
+    color: white;
+}
+
+.catalog-filter.active {
+    border-color: #315c3b;
+    background: #315c3b;
+    color: white;
+}
+
+/* PRODUCTS */
+
+.catalog-page .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* EMPTY */
+
+.catalog-empty {
+    padding: 80px 20px;
+
+    text-align: center;
+}
+
+.catalog-empty h2 {
+    margin-bottom: 10px;
+
+    color: #315c3b;
+
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+}
+
+.catalog-empty p {
+    color: #777;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+    .catalog-page .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .catalog-page {
+        padding: 110px 15px 60px;
+    }
+
+    .catalog-page .products {
+        grid-template-columns: 1fr;
+    }
+
+    .catalog-filters {
+        gap: 8px;
+    }
+
+    .catalog-filter {
+        padding: 10px 15px;
+    }
+
+}

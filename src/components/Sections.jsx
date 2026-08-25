@@ -97,7 +97,9 @@ export const Footer = () => (
         <div className="footer-inner">
             <div className="footer-logo">Фермерская лавка</div>
             <div className="footer-links">
-                <a href="#catalog">Каталог</a>
+                <a href="/lavka/catalog">
+                    Каталог
+                </a>
                 <a href="#about">О нас</a>
                 <a href="#reviews">Отзывы</a>
                 <a href="#contacts">Контакты</a>
