@@ -38,7 +38,7 @@
     "src": "_src_index-b3c78705.DSFPLRA2.css"
   },
   "node_modules/vike/dist/client/runtime-client-routing/entry.js": {
-    "file": "assets/entries/entry-client-routing.CxKPMJPX.js",
+    "file": "assets/entries/entry-client-routing.CcLHMdF7.js",
     "name": "entries/entry-client-routing",
     "src": "node_modules/vike/dist/client/runtime-client-routing/entry.js",
     "isEntry": true,
@@ -46,8 +46,8 @@
       "_chunk-DjF9EUXp.js"
     ],
     "dynamicImports": [
-      "virtual:vike:page-entry:client:/src/pages/catalog/@category/@product",
       "virtual:vike:page-entry:client:/src/pages/catalog",
+      "virtual:vike:page-entry:client:/src/pages/catalog/@category/@product",
       "virtual:vike:page-entry:client:/src/pages/index"
     ]
   },
@@ -93,7 +93,7 @@
     ]
   },
   "virtual:vike:page-entry:client:/src/pages/index": {
-    "file": "assets/entries/src_pages_index.CP7oMb9D.js",
+    "file": "assets/entries/src_pages_index.BxTCRgsG.js",
     "name": "entries/src/pages/index",
     "src": "virtual:vike:page-entry:client:/src/pages/index",
     "isEntry": true,
