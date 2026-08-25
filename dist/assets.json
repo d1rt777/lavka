@@ -3,16 +3,42 @@
     "file": "assets/chunks/chunk-DjF9EUXp.js",
     "name": "renderPageClient"
   },
+  "_chunk-E8A-CEUS.js": {
+    "file": "assets/chunks/chunk-E8A-CEUS.js",
+    "name": "Loading",
+    "imports": [
+      "_chunk-DjF9EUXp.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.DSFPLRA2.css",
+      "assets/static/src_App-ac5f32af.CYyoke_2.css"
+    ],
+    "assets": [
+      "assets/static/banner.CFE0ktVD.png",
+      "assets/static/fermer.8-Oux33a.png",
+      "assets/static/vk.DVd6Cui2.png",
+      "assets/static/max.fl0S2_CD.png",
+      "assets/static/telegram.CtsVJz6y.png"
+    ]
+  },
+  "_chunk-Q7kR-zHw.js": {
+    "file": "assets/chunks/chunk-Q7kR-zHw.js",
+    "name": "Sections",
+    "imports": [
+      "_chunk-DjF9EUXp.js",
+      "_chunk-E8A-CEUS.js"
+    ]
+  },
   "_src_App-ac5f32af.CYyoke_2.css": {
     "file": "assets/static/src_App-ac5f32af.CYyoke_2.css",
     "src": "_src_App-ac5f32af.CYyoke_2.css"
   },
-  "_src_index-b3c78705.CSyoIcZD.css": {
-    "file": "assets/static/src_index-b3c78705.CSyoIcZD.css",
-    "src": "_src_index-b3c78705.CSyoIcZD.css"
+  "_src_index-b3c78705.DSFPLRA2.css": {
+    "file": "assets/static/src_index-b3c78705.DSFPLRA2.css",
+    "src": "_src_index-b3c78705.DSFPLRA2.css"
   },
   "node_modules/vike/dist/client/runtime-client-routing/entry.js": {
-    "file": "assets/entries/entry-client-routing.CqxbY-o_.js",
+    "file": "assets/entries/entry-client-routing.CxKPMJPX.js",
     "name": "entries/entry-client-routing",
     "src": "node_modules/vike/dist/client/runtime-client-routing/entry.js",
     "isEntry": true,
@@ -20,6 +46,8 @@
       "_chunk-DjF9EUXp.js"
     ],
     "dynamicImports": [
+      "virtual:vike:page-entry:client:/src/pages/catalog/@category/@product",
+      "virtual:vike:page-entry:client:/src/pages/catalog",
       "virtual:vike:page-entry:client:/src/pages/index"
     ]
   },
@@ -43,16 +71,39 @@
     "file": "assets/static/vk.DVd6Cui2.png",
     "src": "src/assets/social/vk.png"
   },
+  "virtual:vike:page-entry:client:/src/pages/catalog": {
+    "file": "assets/entries/src_pages_catalog.Co-bbrB4.js",
+    "name": "entries/src/pages/catalog",
+    "src": "virtual:vike:page-entry:client:/src/pages/catalog",
+    "isEntry": true,
+    "imports": [
+      "_chunk-DjF9EUXp.js",
+      "_chunk-E8A-CEUS.js",
+      "_chunk-Q7kR-zHw.js"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/catalog/@category/@product": {
+    "file": "assets/entries/src_pages_catalog_-category_-product.D3ST8DYS.js",
+    "name": "entries/src/pages/catalog/@category/@product",
+    "src": "virtual:vike:page-entry:client:/src/pages/catalog/@category/@product",
+    "isEntry": true,
+    "imports": [
+      "_chunk-DjF9EUXp.js",
+      "_chunk-E8A-CEUS.js"
+    ]
+  },
   "virtual:vike:page-entry:client:/src/pages/index": {
-    "file": "assets/entries/src_pages_index.GRiK529x.js",
+    "file": "assets/entries/src_pages_index.CP7oMb9D.js",
     "name": "entries/src/pages/index",
     "src": "virtual:vike:page-entry:client:/src/pages/index",
     "isEntry": true,
     "imports": [
-      "_chunk-DjF9EUXp.js"
+      "_chunk-DjF9EUXp.js",
+      "_chunk-E8A-CEUS.js",
+      "_chunk-Q7kR-zHw.js"
     ],
     "css": [
-      "assets/static/src_index-b3c78705.CSyoIcZD.css",
+      "assets/static/src_index-b3c78705.DSFPLRA2.css",
       "assets/static/src_App-ac5f32af.CYyoke_2.css"
     ],
     "assets": [
