@@ -18,9 +18,12 @@ export const ProductCard = ({ product, onOpen, onAddToCart }) => {
           </div>
 
           <div className="product-actions">
-            <button className="details-button" onClick={() => onOpen(product)}>
+            <a
+              className="details-button"
+              href={`/lavka/catalog/${product.categorySlug}/${product.slug}`}
+            >
               Подробнее
-            </button>
+            </a>
             <button className="add-button" onClick={() => onAddToCart(product)}>
               В корзину
             </button>

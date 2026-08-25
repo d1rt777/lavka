@@ -22,7 +22,7 @@ export const Catalog = ({ products, onOpenProduct, onAddToCart }) => {
             <ProductCard
               key={product.id}
               product={product}
-              onOpen={onOpenProduct}
+              // onOpen={onOpenProduct}
               onAddToCart={onAddToCart}
             />
           ))}
