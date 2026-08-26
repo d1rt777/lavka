@@ -2,18 +2,29 @@ import React from 'react';
 
 export const ProductCard = ({ product, onOpen, onAddToCart }) => {
   return (
-    <article className="product">
+    <article className="product"
+      itemScope
+      itemType="https://schema.org/Product"
+    >
       <div className="product-image">
-        <img src={product.image} alt={product.name} />
+        <img src={product.image} alt={product.name} itemProp="image" />
       </div>
 
       <div className="product-info">
-        <div className="product-category">{product.category}</div>
-        <h3>{product.name}</h3>
-        <p className="product-description">{product.description}</p>
+        <div className="product-category" itemProp="category">{product.category}</div>
+        <h3 itemProp="name">{product.name}</h3>
+        <p className="product-description" itemProp="description">{product.description}</p>
 
-        <div className="product-bottom">
+        <div className="product-bottom"
+          itemProp="offers"
+          itemScope
+          itemType="https://schema.org/Offer"
+        >
           <div className="price">
+            <meta
+              itemProp="priceCurrency"
+              content="RUB"
+            />
             {product.price} ₽ <span>/ шт.</span>
           </div>
 
@@ -21,6 +32,7 @@ export const ProductCard = ({ product, onOpen, onAddToCart }) => {
             <a
               className="details-button"
               href={`/lavka/catalog/${product.categorySlug}/${product.slug}`}
+              itemProp="url"
             >
               Подробнее
             </a>
