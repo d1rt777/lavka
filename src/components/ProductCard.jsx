@@ -1,6 +1,23 @@
 import React from 'react';
 
 export const ProductCard = ({ product, onOpen, onAddToCart }) => {
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.name,
+    "image": product.image,
+    "description": product.description,
+    "category": product.category,
+    "offers": {
+      "@type": "Offer",
+      "price": product.price,
+      "priceCurrency": "RUB",
+      "availability": "https://schema.org/InStock",
+      "url": `${window.location.origin}/lavka/catalog/${product.categorySlug}/${product.slug}`
+    }
+  };
+
   return (
     <article className="product"
       itemScope
